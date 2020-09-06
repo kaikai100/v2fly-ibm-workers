@@ -56,7 +56,7 @@ jobs:
         applications:
         - name: kai
           memory: 256M
-          disk_quota: 256M
+          disk_quota: 1024M
           routes:
           - route: ${{ secrets.CF_ROUTE_IBM }}
           command: ./v2ray
